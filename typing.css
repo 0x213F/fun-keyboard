@@ -1,0 +1,172 @@
+* { font-family: -apple-system; margin: 0px; padding: 0px; }
+
+.number {
+  font-size: 125%;
+}
+
+#keyboard {
+  width:95%;
+  margin: auto;
+  margin-top: 10%;
+  padding-left: 5%;
+  padding-top: 1%;
+  z-index: 1;
+  position: relative;
+}
+
+.letter {
+  width: 5.9%;
+  background: #343434;
+  z-index: 2;
+
+  color: #F5F5F5;
+   font-weight: 100;
+
+  float: left;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  width: 5.9%;
+  background: #343434;
+  z-index: 2;
+  text-align: left;
+  padding-left: 10%;
+
+  color: #F5F5F5;
+   font-weight: 100;
+
+  border-radius: 10%;
+
+  float: left;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  width: 5.9%;
+  background: #343434;
+  z-index: 2;
+
+  color: #F5F5F5;
+   font-weight: 100;
+
+  border-radius: 10px;
+
+  float: left;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.double {
+  padding-top: .8%;
+  width: 5.9%;
+  background: #343434;
+  z-index: 2;
+  line-height: 50%;
+
+  color: #F5F5F5;
+   font-weight: 100;
+
+  border-radius: 10px;
+
+  float: left;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.small {
+  width: 9.3%;
+  background: #343434;
+  z-index: 2;
+
+  color: #F5F5F5;
+   font-weight: 100;
+
+  border-radius: 10px;
+
+  float: left;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle {
+  width: 10.85%;
+  background: #343434;
+  z-index: 2;
+
+  color: #F5F5F5;
+   font-weight: 100;
+
+  border-radius: 10px;
+
+  float: left;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.large {
+  width: 14.1%;
+  background: #343434;
+  z-index: 2;
+
+  color: #F5F5F5;
+   font-weight: 100;
+
+  float: left;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.command {
+  width: 7.6%;
+  background: #343434;
+  z-index: 2;
+
+  color: #F5F5F5;
+   font-weight: 100;
+
+  float: left;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.space {
+  width: 31.9%;
+  background: #343434;
+  z-index: 2;
+
+  color: #F5F5F5;
+   font-weight: 100;
+
+  float: left;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
